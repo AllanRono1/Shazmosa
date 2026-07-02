@@ -1,0 +1,39 @@
+body {
+    font-size: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li, nav ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul .nav-logo {
+    margin-right: 10px;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    gap: 15px;
+    font-size: 0.87rem;
+    margin: 0 1.5rem;
+    align-items: center;
+}
+
+.nav-right-menu, .nav-right-order {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-right-menu {
+    border-right: 1px solid #d8cbb8;
+}
+
+.nav-right-menu img {
+    margin: 0 10px;
+    font-family: TT Ramillas Variable,Georgia,sans-serif;
+}
