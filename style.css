@@ -1,8 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
-    font-size: 1rem;
-    font-family: "inter", sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 1rem;
+    font-family: "inter", sans-serif;
+
 }
 
 img, video {
@@ -79,8 +84,8 @@ ul {
 
 .nav-right-menu, .nav-right-order {
     display: flex;
-    gap: 10px;
     align-items: center;
+    gap: 10px;
 }
 
 .nav-right-menu div, .nav-right-order div{
