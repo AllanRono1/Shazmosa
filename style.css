@@ -45,6 +45,7 @@ header .hero-image {
 
 .nav-menu {
     display: none;
+    flex-direction: column;
 }
 
 li a{
@@ -102,6 +103,41 @@ ul {
     object-fit: cover;
 }
 
+.nav-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    color: #d8cbb8;
+    cursor: pointer;
+    
+}
+
+.nav-toggle-label {
+    font-size: calc(0.5rem + 1vw);
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 29px;
+    height: 8px;
+}
+
+.hamburger-icon span {
+    display: block;
+    width: 100%;
+    background-color: #d8cbb8;
+    height: 2px;
+    border-radius: 5px;
+}
+
+.hamburger-icon span:nth-of-type(2) {
+    width: 80%;
+}
+
 
 @media screen and (min-width: 48rem) {
     .nav-toggle {
@@ -109,5 +145,6 @@ ul {
     }
     .nav-menu {
         display: flex;
+        flex-direction: row;
     }
 }
