@@ -138,6 +138,26 @@ ul {
     width: 80%;
 }
 
+.horizontal-line {
+    height: 28px;
+    width: 0.8px;
+    background: #ffffff50;
+    border-radius: 2px;
+}
+
+.arrow-icon {
+    display: inline-block;
+    border: solid #d8cbb8;
+    border-width: 0 2px 2px 0;
+    border-radius: 1px;
+    padding: 2.3px;
+}
+
+.left {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
 
 @media screen and (min-width: 48rem) {
     .nav-toggle {
