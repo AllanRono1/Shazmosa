@@ -196,6 +196,20 @@ ul {
     letter-spacing: 1%;
 }
 
+.hero-image p {
+    font-family: "inter", sans-serif;
+    color: #d8cbb8;
+    position: absolute;
+    top: auto;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
 @media screen and (min-width: 48rem) {
     .nav-toggle {
         display: none;
