@@ -201,13 +201,13 @@ ul {
     color: #d8cbb8;
     position: absolute;
     top: auto;
-    bottom: 110px;
+    bottom: 130px;
     left: 0;
     right: 0;
     margin: auto;
     width: 90vw;
     text-align: center;
-    font-size: 0.725rem;
+    font-size: 0.8rem;
     line-height: 1.5;
     font-weight: 500;
 }
