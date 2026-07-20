@@ -201,14 +201,15 @@ ul {
     color: #d8cbb8;
     position: absolute;
     top: auto;
-    bottom: 80px;
+    bottom: 110px;
     left: 0;
     right: 0;
     margin: auto;
     width: 90vw;
     text-align: center;
-    font-size: 0.75rem;
-    font-weight: 400;
+    font-size: 0.725rem;
+    line-height: 1.5;
+    font-weight: 500;
 }
 
 @media screen and (min-width: 48rem) {
