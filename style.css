@@ -92,9 +92,17 @@ ul {
     top: 0;
     right: 0;
     left: 0;
-    padding : 0.7rem 4%;
+    padding : 0.65rem 4%;
     background-color: #2c2c2c;
     border-bottom: 1px solid #d8cbb826;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.nav-left.nav-visible {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .nav-right-menu, .nav-right-order {
@@ -246,4 +254,9 @@ ul {
         width: auto;
         height: auto;
     }
+    .nav-left{
+        opacity: 1;
+        pointer-events: auto;
+    }
+
 }
