@@ -7,6 +7,7 @@ const navLeft = document.querySelector('.nav-left')
 navToggle.addEventListener("click", () => {
     const isOpen = navMenu.classList.toggle('active')
     navToggle.setAttribute('aria-expanded', isOpen)
+    document.body.classList.toggle('no-scroll', isOpen)
 })
 
 const desktopQuery = window.matchMedia('(min-width: 48rem)')
@@ -15,6 +16,7 @@ desktopQuery.addEventListener("change", (e) => {
     if(e.matches) {
         navMenu.classList.remove('active')
         navToggle.setAttribute('aria-expanded', false)
+        document.body.classList.remove('no-scroll')
     }
 })
 
